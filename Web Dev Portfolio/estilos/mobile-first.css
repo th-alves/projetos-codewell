@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Prata', serif;
+    background-color: #0a0a0b;
+}
+
+header {
+    color: #efefee;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+header p {
+    font-family: 'Prata', serif;
+    padding: 20px;
+}
+
+header .git {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+h1, h2 {
+    color: #efefee;
+}
+
+p {
+    color: lightgray;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+
+    text-align: justify;
+}
+
+.burguer {
+    position: relative;
+     top: -45px;
+     left: 90%;
+}
+
+#bloco-1 {
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+#bloco-1 h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#bloco-1 p{
+     font-size: 1rem;
+     font-weight: 400;
+     text-align: justify;
+     line-height: 24px;
+
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+#bloco-2-logos-mb div{
+    display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     gap: 20px;
+
+    padding: 10px;
+}
+
+#bloco-2-logos-pc {
+    display: none;
+}
+
+#bloco-3-fotos h2, p{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#bloco-3-fotos img {
+    width: 390px;
+    margin: 0px 20px;
+    padding-top: 40px;
+}
+
+.b4 {
+    background-color: rgb(50, 50, 61);
+}
+
+#bloco-4 h2, p {
+    padding: 20px;
+}
+
+aside h2 {
+    font-size: 2.2rem;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+aside p{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.git {
+    background-color: yellow;
+    padding: 15px 20px;
+    margin-left: 20px;
+
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgb(50, 50, 61);
+    margin-top: 60px;
+}
+
+footer p {
+    font-family: 'Prata', serif;
+}
