@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Archivo', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 40%;
+    padding-top: 20px;
+}
+
+.burguer {
+    position: relative;
+    top: -12px;
+
+    border-radius: 10px;
+    background-color: #fdf6fc;
+    padding: 10px;
+}
+
+#new-campground h1 {
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+
+    font-weight: 700;
+}
+
+#new-campground legend {
+    margin-top: 20px;
+    padding-left: 20px;
+
+    font-size: 0.8rem;
+    color: rgb(85, 85, 85);
+}
+
+#new-campground input {
+    border: none;
+    background-color: #fdf6fc;
+    border-radius: 5px;
+    padding: 4% 36% 4% 4%;
+    margin: 5px 20px;
+}
+
+#new-campground ::placeholder {
+    text-align: left;
+    padding: 10px;
+}
+
+textarea {
+    margin: 10px 20px;
+    background-color: #fdf6fc;
+    border-radius: 5px;
+}
+
+section button {
+    margin: 10px 20px;
+    padding: 4% 23.5%;
+
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+    border-radius: 5px;
+}
+
+footer {
+    margin: 0 22px;
+    padding: 40px 0px;
+}

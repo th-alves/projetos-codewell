@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Archivo', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40%;
+    padding-top: 40px;
+}
+
+/* MENU CONFIGS */
+.menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.menu-content ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+.menu-content a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-content a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+/* Menu Configs */
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+
+    margin-top: 40px;
+}
+
+#welcome {
+    background-color: #fdf6fc;
+    padding-top: 30px;
+    padding-left: 30px;
+
+    margin: 40px auto;
+    width: 90%;
+    height: 430px;
+
+    border-radius: 10px ;
+}
+
+#welcome h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+
+    width: 70%;
+}
+
+#welcome p {
+    margin-top: 10px;
+
+    font-size: 1rem;
+    line-height: 30px;
+    color: rgb(141, 140, 140);
+
+    width: 75%;
+}
+
+#welcome input {
+    margin-top: 10px;
+    margin-left: -22px;
+    padding: 20px 21%;
+
+    border-radius: 5px;
+}
+
+#welcome svg {
+    position: relative;
+    top: 1.5%;
+    left: 10%;
+}
+
+#welcome ::placeholder {
+    font-size: 1rem;
+}
+
+#welcome button {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 20px 37%;
+
+    border-radius: 10px;
+
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+
+    background-color: black;
+}
+
+#welcome a {
+    margin-top: 10px;
+    color: rgb(105, 105, 105);
+    font-weight: 600;
+}
+
+section {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+
+    height: 410px;
+    width: 90%;
+    margin: 40px auto -20px;
+    padding: 15px;
+}
+
+section img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+section h3 {
+    margin-bottom: 10px;
+}
+
+section p {
+    color: rgb(105, 105, 105);
+    width: 85%;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+section a {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 5% 25.8%;
+
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer {
+    margin: 40px 20px;
+    padding: 30px 0px;
+}

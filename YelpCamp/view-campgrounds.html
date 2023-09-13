@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campgrounds</title>
+    <link rel="stylesheet" href="estilos/mb-first-view-campgrounds.css">
   </head>
   <body>
     <header>
@@ -28,22 +29,23 @@
         </svg>
       </a>
 
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H20C20.55 8 21 7.55 21 7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7Z"
-          fill="black"
-        />
-      </svg>
+      <div id="hamburger-button">&#9776;</div>
+
+    <div class="menu" id="menu">
+        <div class="menu-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="sign-in.html">Sign In</a></li>
+                <li><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+
     </header>
 
     <main>
-      <section id="Welcome">
+      <div id="welcome">
         <h1>Welcome to YelpCamp!</h1>
         <p>
           View our hand-picked campgrounds from all over the world, or add your
@@ -51,9 +53,8 @@
         </p>
 
         <svg
-          width="16"
-          height="17"
-          viewBox="0 0 16 17"
+          width="20"
+          height="20"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -62,10 +63,12 @@
             fill="#595959"
           />
         </svg>
-        <input type="search" name="search" id="search" placeholder="Search for camps"/>
+        <input type="search" name="search" id="search" placeholder="Search for camps" autocomplete="off"/>
+        <br>
         <button type="submit">Search</button>
+        <br>
         <a href="add-campground.html">Or add your own campground</a>
-      </section>
+      </div>
 
       <section id="mount-ulap">
         <img
@@ -126,6 +129,7 @@
       </section>
 
       <section id="buloy-springs">
+        <img src="Assets/Camp Images/Compressed Images/Buloy Springs.jpg" alt="paisagem estilo deserto">
         <h3>Buloy Springs</h3>
         <p>
             This is one of the best beach camping sites, beautiful and pristine.
@@ -133,6 +137,18 @@
         <a href="#">View Campground</a>
       </section>
     </main>
+
+    <script>
+      // Função para abrir o menu
+      document.getElementById("hamburger-button").addEventListener("click", function () {
+          document.getElementById("menu").style.display = "block";
+      });
+
+      // Função para fechar o menu
+      document.getElementById("close-button").addEventListener("click", function () {
+          document.getElementById("menu").style.display = "none";
+      });
+  </script>
 
     <footer>
         <svg width="118" height="27" viewBox="0 0 118 27" fill="none" xmlns="http://www.w3.org/2000/svg">
