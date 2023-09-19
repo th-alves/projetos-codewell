@@ -3,9 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body {
-    position: relative;
-    top: -200px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +11,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
 
-    background: url(jVo.gif) no-repeat center center;
-    background-size: cover;
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8d98e6, #7d97ec, #6996f1, #5488f7, #4179fb, #3169fe, #2957ff);
 }
 
 .container {
@@ -52,14 +48,4 @@ body {
 
 .link:hover {
     background-color: #0056b3;
-}
-
-@media only screen and (max-width: 768px) {
-    body {
-        background-size: 245%;
-    }
-
-    .container {
-        backdrop-filter: blur(0px);
-    }
 }
