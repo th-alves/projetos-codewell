@@ -35,7 +35,7 @@ header {
     background-color: var(--cor5);
 }
 
-header p {
+.title {
     font-size: 1.3rem;
     font-weight: 700;
     color: var(--cor2);
@@ -283,6 +283,10 @@ aside h1{font-size: 2rem;}
     padding: 10px;
 }
 
+.price-card .links {
+    margin-top: 20px;
+}
+
 .price {
     font-size: 36px;
     text-align: left;
@@ -303,6 +307,7 @@ aside h1{font-size: 2rem;}
 
 .features {
     list-style: none;
+    color: var(--cor4);
 }
 
 .features li {
@@ -318,4 +323,25 @@ aside h1{font-size: 2rem;}
 
 .features li img {
     margin-right: 10px;
+}
+
+footer {
+    background-color: var(--cor0);
+    padding: 20px 0px;
+}
+
+footer .title {
+    margin: 0 5%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px -45px;
 }
