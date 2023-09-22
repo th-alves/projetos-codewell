@@ -1,3 +1,9 @@
+/*!
+  * Item: Willy Wonka Theme
+  * Description: Personal Portfolio Website Template
+  * Author/Developer: Sujal
+  * Version: v1
+  */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
@@ -189,10 +195,38 @@ body{
     opacity: 1;
     transform: rotate(90deg);
 }
-
+.logo img{
+    height: 80px;
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+    opacity: .8;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.logo img:hover{
+    opacity: 1;
+    transform: rotate(-45deg);
+}
+#navigation-bar img{
+    height: 80px;
+    position: absolute;
+    ;
+    top: 15%;
+    left: 2.5%;
+    opacity: .8;
+    transition: all .4s ease;
+}
+#navigation-bar img:hover{
+    opacity: 1;
+    transform:rotate(-45deg);
+}
 .header-image img{
     height: 100vh;
     float: right;
+    border-radius: 50%;
+    margin-right: 150px;
 }
 .header-image{
     float: right;
@@ -201,7 +235,6 @@ body{
     background-position: center;
     width: 40%;   
     height: 100vh;
-
 }
 .header-content{
     height: 100vh;
@@ -361,12 +394,13 @@ body{
     width: 200%;
     background-color: #c70039;
     opacity: 1;
-    animation: breakeranimate 2s linear;
     display: none;
-    transition: all .4s ease;
     border-radius: 5px;
     z-index: 10;
     position: fixed;
+    transition: all .4s ease;
+    animation: breakeranimate 2s linear;
+    
 }
 @keyframes breakeranimate{
    0%{ transform : translateX(-100%)}
@@ -1367,11 +1401,11 @@ For devices with smaller width like mobile phone
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100vh; 
         width: 200%;
         background-color: #c70039;
         opacity: 1;
-        animation: breakeranimate 2s linear;
+        animation: transform, breakeranimate 2s linear;  
         display: none;
         transition: all .4s ease;
         z-index: 10;
@@ -1547,7 +1581,15 @@ For devices with smaller width like mobile phone
                 height: 300px;
                 width: 90%;
             }
-            
+            #navigation-bar img{
+                height: 80px;
+                position: absolute;
+                top: 15%;
+                left: 2.5%;
+                opacity: .8;
+                transition: all .4s ease;
+                display: none;
+            }
             .blogs{
                 height: auto;
                 width: 90%;
@@ -1766,8 +1808,12 @@ For devices with smaller width like mobile phone
 }
        
 /*
+
 for tabs and large phones
+
 */
+
+
 
 @media all and (max-width: 1025px) and (min-width: 551px){
     .header-content{
@@ -2007,7 +2053,14 @@ for tabs and large phones
                 height: 380px;
                 width: 70%;
             }
-            
+            #navigation-bar img{
+                height: 80px;
+                position: absolute;
+                top: 15%;
+                left: 2.5%;
+                opacity: .8;
+                transition: all .4s ease;
+            }
             .blogs{
                 height: auto;
                 width: 75%;
