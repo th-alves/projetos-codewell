@@ -132,14 +132,15 @@ header {
 
 .footer-perfis strong {color: var(--cor3);}
 
+.bloco-2-header  {
+    font-size: 1rem;
+    
+    margin: 30px 5%;
+}
+
 .bloco-2 {
     margin: 40px 5%;
     max-width: 90%;
-}
-
-.bloco-2 h2 {
-    font-size: 2.3rem;
-    width: 90%;
 }
 
 .bloco-2 div {
