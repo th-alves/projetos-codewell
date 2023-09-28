@@ -48,6 +48,10 @@ header {
     margin: 10px 5%;
 }
 
+.right-img .tablet-view {
+    display: none;
+}
+
 .bloco-1 h1 {
     letter-spacing: 0.6px;
 
@@ -133,7 +137,7 @@ header {
 .footer-perfis strong {color: var(--cor3);}
 
 .bloco-2-header  {
-    font-size: 1rem;
+    font-size: 1.5rem;
     
     margin: 30px 5%;
 }
@@ -143,7 +147,7 @@ header {
     max-width: 90%;
 }
 
-.bloco-2 div {
+.bloco-2 .assd {
     border: 1px solid lightgray;
     border-radius: 10px;
 
@@ -342,6 +346,16 @@ footer a {
 
 .terms {
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px -45px;
+    justify-content: right;
+    margin: 20px 45px;
+    font-size: 0.8rem;
+    gap: 20px;
+}
+
+.title-footer {
+    color: var(--cor2);
+    font-weight: 700;
+    position: relative;
+    top: 38px;
+    left: 5%;
 }
