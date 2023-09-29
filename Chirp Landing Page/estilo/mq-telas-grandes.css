@@ -323,12 +323,12 @@
         gap: 50%;
 
         padding: 10px;
-        margin-left: 10px;
     }
 
     .title-footer {
         color: var(--cor2);
         font-weight: 700;
+        position: initial;
     }
 
     .terms {
