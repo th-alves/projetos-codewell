@@ -1,0 +1,139 @@
+:root {
+    --font-1: 'Playfair Display', serif;
+    --font-2: 'Lato', sans-serif;
+
+    --cor0: #eee5d7;
+    --cor1: #5477d6;
+    --cor2: #FFC75F;
+    --cor3: #FF9671;
+    --cor4: #FF6F91;
+    --cor5: #4d4d4d;
+}
+
+@media screen and (min-width: 768px) {
+    
+    #header {
+        padding: 20px 40px;
+    }
+
+    .img img {
+        width: 350px;
+        position: relative;
+        left: 30%;
+    }
+
+    .container {
+        margin: 60% 5% 60px; 
+    }
+
+    .container .content-text h1 {
+        font-size: 4rem;
+        font-weight: 600;
+
+        width: 100%;
+    }
+
+    .place-email {
+        display: flex;
+        gap: 16%;
+    }
+
+    .place-email input {
+        width: 150%;
+    }
+
+    .place-email .btn {
+        width: 20%;
+    }
+
+    footer .all-infos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #header {
+        padding: 20px 100px;
+    }
+
+    #header a {
+        text-decoration: none;
+        color: var(--cor5);
+
+        transition: color .4s ease;
+    }
+
+    #header a:hover {
+        color: black;
+    }
+
+    .sign-in {
+        align-items: center;
+    }
+
+    .sign-in button {
+        background-color: var(--cor1);
+
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        color: #fff;
+        
+        border-radius: 5px;
+        border: none;
+
+        padding: 20px;
+        margin: 20px 0 20px 20px;
+
+        cursor: pointer;
+        transition: background-color .4s ease;
+    }
+
+    .sign-in button:hover {
+        background-color: #4d6bbe;
+    }
+    
+    nav, .sign-in {
+        display: flex;
+    }
+
+    nav ul li {
+        display: inline-flex;
+        margin-right: 40px;
+    }
+
+    .burguer {
+        display: none;
+    }
+
+    .img img {
+        top: 25%;
+        left: 70%;
+    }
+
+    .container {
+        margin: 10% 5%;
+    }
+
+    main .container .content-text h1 {
+        width: 40%;
+    }
+
+    main .container .content-text p {
+        width: 35%;
+    }
+
+    .place-email {
+        gap: 7%;
+    }
+
+    .place-email input {
+        width: 150%;
+    }
+
+    .place-email .btn {
+        width: 10%;
+    }
+}
