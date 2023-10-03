@@ -1,0 +1,149 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .burguer {
+        display: none;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation ul li {
+        display: inline-flex;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: var(--cor0);
+
+        padding: 0 20px;
+
+        transition: color .7s ease;
+    }
+
+    .navigation a:hover {
+        color: #000000;
+    }
+
+    .navigation .btn {
+        background-color: #ff8c00;
+        color: #000000;
+        font-weight: 900;
+
+        border-radius: 5px;
+        padding: 15px 30px;
+        transition: color .7s ease;
+    }
+
+    .navigation .btn:hover {
+        color: #ffffff;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 20px 11%;
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    header {
+        padding: 40px 10%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation ul li {
+        display: inline-flex;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: var(--cor0);
+
+        padding: 0 20px;
+
+        transition: color .7s ease;
+    }
+
+    .navigation a:hover {
+        color: #000000;
+    }
+
+    .navigation .btn {
+        background-color: #ff8c00;
+        color: #000000;
+        font-weight: 900;
+
+        border-radius: 5px;
+        padding: 15px 30px;
+        transition: color .7s ease;
+    }
+
+    .navigation .btn:hover {
+        color: #ffffff;
+    }
+
+    .burguer {
+        display: none;
+    }
+
+    .bloco-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 40px 8%;
+    }
+
+    .bloco-1 .text h1 {
+        width: 60%;
+    }
+
+    .bloco-1 .text p {
+        width: 50%;
+    }
+
+    .bloco-1 img {
+        width: 70%;
+    }
+
+    .bloco-1 .text {
+        margin: 0 -20%;
+    }
+
+    .bloco-1 .comment-main {
+        position: relative;
+        top: -170%;
+        left: 74%;
+    }
+
+    .bloco-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        margin: 0 11%;
+    }
+
+    .bloco-2 #article img {
+        width: 90%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 20px 11%;
+        margin-top: 100px;
+    }
+}
