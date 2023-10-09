@@ -1,0 +1,492 @@
+@media screen and (min-width:768px) and (max-width: 992px) {
+    #logo-burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 40px 5%;
+        background-color: var(--cor1);
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation li {
+        list-style: none;
+    }
+    .navigation li a {
+        text-decoration: none;
+        color: var(--cor2);
+
+        margin-left: 40px;
+
+        transition: color .7s ease;
+    }
+
+    .navigation li a:hover {
+        color: #000000;
+    }
+
+    #btn {
+        background-color: var(--cor0);
+        padding: 20px;
+        
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+
+        border-radius: 5px;
+
+        transition: background-color .7s ease;
+    }
+
+    #btn:hover {
+        background-color: #000077;
+    }
+
+    #bloco-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        margin: 80px 5%;
+    }
+
+    .bloco-1 .text h1 {
+        font-size: 2rem;
+        color: var(--cor0);
+        width: 100%;
+
+        margin-bottom: 10px;
+    }
+
+    .bloco-1 .text p {
+        color: var(--cor2);
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .bloco-1 .buttons {
+        display: flex;
+        align-items: flex-start;
+        flex-flow: column wrap;
+        gap: 20px;
+    }
+
+    .bloco-1 .buttons a {
+        color: var(--cor2);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .bloco-1 .buttons a:hover {
+        text-decoration: underline;
+    }
+
+    .bloco-1-img {
+        background-color: var(--cor3);
+        padding: 100px 40px;
+
+        border-radius: 10px;
+    }
+
+    .bloco-1-img img {
+        width: 400px;
+    }
+
+    .footer-txt p {
+        color: var(--cor2);
+    }
+    
+    .footer-txt a {
+        color: var(--cor2);
+        font-weight: 900;
+    }
+
+    .footer-bloco-main {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        margin-top: 20px;
+    }
+
+    #bloco-2 {
+        margin: 0 5%;
+    }
+
+    #bloco-2 .txt-img{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    #bloco-2 .txt-img h2 {
+        font-size: 2rem;
+        color: var(--cor0);
+        width: 90%;
+
+        margin-bottom: 10px;
+    }
+
+
+    #bloco-2 .txt-2 p {
+        color: var(--cor2);
+        line-height: 25px;
+        width: 80%;
+
+        margin-bottom: 10px;
+    }
+
+    #U-E {
+        display: flex;
+        flex-flow: column nowrap;
+
+        background: var(--cor4);
+        padding: 40px 10%;
+        height: 580px;
+    }
+
+    #U-E .title {
+        color: var(--cor0);
+        font-weight: 800;
+
+        margin-bottom: 10px;
+    }
+
+    #U-E h1{
+        font-size: 2rem;
+        color: var(--cor5);
+        width: 60%; 
+
+        margin-bottom: 10px;
+    }
+
+    #U-E p {
+        margin-bottom: 40px;
+        color: var(--cor2);
+        width: 70%;
+        text-align: justify;
+    }
+
+    #U-E #enhanced-link {
+        text-decoration: none;
+        color: var(--cor2);
+        font-weight: 900;
+    }
+
+    #U-E #enhanced-link:hover {
+        text-decoration: underline;
+    }
+
+    footer #navigation {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        padding-bottom: 20px;
+        margin: 10px 10% 40px;
+    }
+
+    footer .list li {
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    footer .list li a {
+        text-decoration: none;
+        color: var(--cor2);
+    }
+
+    footer .list p {
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    footer img {
+        margin: 40px 10% 0;
+    }
+
+    .container {
+        position: relative;
+        width: 300px;
+    }
+
+    .container span {
+        font-weight: 700;
+    }
+
+    .email-input {
+        width: 110%;
+        padding: 15px;
+        margin-top: 10px;
+
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .schedule-button {
+        position: absolute;
+        left: 71%;
+        top: 35%; 
+
+        color: #fff;
+        cursor: pointer;
+        
+        border-radius: 5px;
+        border: none;
+
+        background-color: var(--cor0);
+        padding: 5px 20px;
+    }
+} 
+@media only screen and (min-width: 1200px) {
+
+    #logo-burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 40px 10%;
+        background-color: var(--cor1);
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation li {
+        list-style: none;
+    }
+    .navigation li a {
+        text-decoration: none;
+        color: var(--cor2);
+
+        margin-left: 40px;
+
+        transition: color .7s ease;
+    }
+
+    .navigation li a:hover {
+        color: #000000;
+    }
+
+    #btn {
+        background-color: var(--cor0);
+        padding: 20px;
+        
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+
+        border-radius: 5px;
+
+        transition: background-color .7s ease;
+    }
+
+    #btn:hover {
+        background-color: #000077;
+    }
+
+    #bloco-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        margin: 80px 10%;
+    }
+
+    .bloco-1 .text h1 {
+        font-size: 3rem;
+        color: var(--cor0);
+        width: 70%;
+
+        margin-bottom: 10px;
+    }
+
+    .bloco-1 .text p {
+        color: var(--cor2);
+        margin-bottom: 20px;
+        width: 60%;
+    }
+
+    .bloco-1 .buttons {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .bloco-1 .buttons a {
+        color: var(--cor2);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .bloco-1 .buttons a:hover {
+        text-decoration: underline;
+    }
+
+    .bloco-1-img {
+        background-color: var(--cor3);
+        padding: 100px 40px;
+
+        border-radius: 10px;
+    }
+
+    .bloco-1-img img {
+        width: 700px;
+    }
+
+    .footer-txt p {
+        color: var(--cor2);
+    }
+    
+    .footer-txt a {
+        color: var(--cor2);
+        font-weight: 900;
+    }
+
+    .footer-bloco-main {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        margin-top: 20px;
+    }
+
+    #bloco-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20%;
+
+        margin: 0 10%;
+    }
+
+    #bloco-2 .txt-img h2 {
+        font-size: 2rem;
+        color: var(--cor0);
+        width: 70%;
+
+        margin-bottom: 40px;
+    }
+
+    #bloco-2 .txt-2 p {
+        color: var(--cor2);
+        line-height: 25px;
+        width: 80%;
+
+        margin-bottom: 40px;
+    }
+
+    #U-E {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        background: var(--cor4);
+        padding: 40px 10%;
+        height: 350px;
+    }
+
+    #U-E .title {
+        color: var(--cor0);
+        font-weight: 800;
+
+        margin-bottom: 10px;
+    }
+
+    #U-E h1{
+        font-size: 2.5rem;
+        color: var(--cor5);
+        width: 70%;
+
+        margin-bottom: 10px;
+    }
+
+    #U-E p {
+        margin-bottom: 40px;
+        color: var(--cor2);
+        width: 70%;
+        text-align: justify;
+    }
+
+    #U-E #enhanced-link {
+        text-decoration: none;
+        color: var(--cor2);
+        font-weight: 900;
+    }
+
+    #U-E #enhanced-link:hover {
+        text-decoration: underline;
+    }
+
+    footer #navigation {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        padding-bottom: 20px;
+        margin: 10px 10% 40px;
+    }
+
+    footer .list li {
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    footer .list li a {
+        text-decoration: none;
+        color: var(--cor2);
+    }
+
+    footer .list p {
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    footer img {
+        margin: 40px 10% 0;
+    } 
+
+    .container {
+        position: relative;
+        width: 300px;
+    }
+
+    .container span {
+        font-weight: 700;
+    }
+
+    .email-input {
+        width: 110%;
+        padding: 15px;
+        margin-top: 10px;
+
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .schedule-button {
+        position: absolute;
+        left: 71%;
+        top: 35%; 
+
+        color: #fff;
+        cursor: pointer;
+        
+        border-radius: 5px;
+        border: none;
+
+        background-color: var(--cor0);
+        padding: 5px 20px;
+    }
+}

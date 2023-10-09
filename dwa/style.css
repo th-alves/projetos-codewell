@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    display: grid;
+    grid-template: repeat(10, 200px) / repeat(4, 200px);
+    grid-template-areas: 
+    "header header header header"
+    "main main . aside"
+    "footer footer footer footer";
+}
+
+.logo {
+    grid-area: header;
+    background-color: aliceblue;
+}
+
+nav {
+    grid-area: header;
+    background-color: antiquewhite;
+}
+
+header nav li {
+    display: inline-flex;
+    list-style: none;
+}
+
+main {
+    grid-area: main;
+    background-color: aquamarine;
+}
+
+aside {
+    grid-area: aside;
+    background-color:aqua;
+}
+
+footer {
+    grid-area: footer;
+    background-color: azure;
+}

@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor0: #000050;
+    --cor1: #fffaf2;
+    --cor2: #555555;
+    --cor3: #00b9b9;
+    --cor4: #d0f3ff;
+    --cor5: #2b575a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #logo-burguer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 40px;
+    }
+
+    .navigation, .main-btn {
+        display: none;
+    }
+
+    #bloco-main .text h1 {
+        color: var(--cor0);
+        font-size: 2rem;
+
+        margin: 0 10%;
+    }
+
+    #bloco-main .text p {
+        color: var(--cor2);
+        line-height: 25px;
+
+        margin: 10px 10%;
+    }
+
+    .bloco-1 .buttons {
+        margin-left: 10%;
+
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bloco-1 .buttons a {
+        text-decoration: none;
+        color: var(--cor2);
+        font-weight: 700;
+    }
+
+    .bloco-1 .buttons a:hover {
+        text-decoration: underline;
+    }
+
+    #btn {
+        background-color: var(--cor0);
+        color: white;
+
+        padding: 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .footer-bloco-main {
+        display: flex;
+        gap: 10px;
+
+        margin: 10px 10%;
+    }
+
+    .footer-bloco-main a {
+        color: var(--cor2);
+        font-weight: 700;
+    }
+    
+
+    .bloco-1-img {
+        padding: 40px 10%;
+        background-color: var(--cor3);
+    }
+
+    .bloco-1-img img {
+        width: 350px;
+    }
+
+
+    #bloco-2 .txt-img{
+        margin: 40px 10%;
+    }
+
+
+    #bloco-2 .txt-img h2 {
+        font-size: 2rem;
+        color: var(--cor0);
+
+        margin-bottom: 20px;
+    }
+
+    #bloco-2 .txt-2 {
+        margin: 0 10%;
+    }
+
+    #bloco-2 .txt-2 p {
+        color: var(--cor2);
+        text-align: justify;
+
+        margin-bottom: 20px;
+    }
+
+    #U-E {
+        padding: 40px 10%;
+        background-color: var(--cor4);
+    }
+
+    #U-E .title {
+        color: var(--cor0);
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    #U-E h1 {
+        color: var(--cor5);
+        margin-bottom: 10px;
+    }
+
+    #U-E p {
+        color: var(--cor2);
+        margin-bottom: 40px;
+    }
+
+    #U-E .Enhanced a {
+        text-decoration: none;
+        color: var(--cor2);
+        font-weight: 700;
+
+        transition: background-color .7s ease;
+    }
+
+    footer #navigation {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        padding-bottom: 20px;
+        margin: 10px 0% 40px;
+    }
+
+    footer .list {
+        margin-left: 50px;
+    }
+
+    footer .list ul li {
+        list-style: none;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    footer .list li a {
+        text-decoration: none;
+        color: var(--cor2);
+    }
+
+    footer .list p {
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    footer img {
+        margin: 40px 11% 0;
+    } 
+
+    .container {
+        position: relative;
+        top: 150px;
+        right: 27%;
+        width: 300px;
+    }
+
+    .container span {
+        font-weight: 700;
+    }
+
+    .email-input {
+        width: 100%;
+        padding: 15px;
+        margin-top: 10px;
+
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .schedule-button {
+        position: absolute;
+        left: 54%;
+        top: 27.5%; 
+
+        color: #fff;
+        cursor: pointer;
+        
+        border-radius: 5px;
+        border: none;
+
+        background-color: var(--cor0);
+        padding: 15px;
+
+        transition: background-color .7s ease;
+    }
+
+    .schedule-button:hover {
+        background-color: #000061;
+    }
+}
