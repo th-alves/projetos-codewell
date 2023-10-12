@@ -392,8 +392,9 @@
         grid-template-columns: repeat(2, 1fr);
 
         background: var(--cor4);
+        margin: 80px 0;
         padding: 40px 10%;
-        height: 350px;
+        height: 400px;
     }
 
     #U-E .title {
