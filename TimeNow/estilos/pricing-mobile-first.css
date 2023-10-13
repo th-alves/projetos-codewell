@@ -189,4 +189,79 @@ header .main-btn {
 #cards .card .btn button:hover {
     background-color: #00006b; 
 }
+
+footer #navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding-bottom: 20px;
+    margin: 10px 0% 40px;
+}
+
+footer .list {
+    margin-left: 50px;
+}
+
+footer .list ul li {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+footer .list li a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer .list p {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+footer img {
+    margin: 40px 11% 0;
+} 
+
+.container {
+    position: relative;
+    top: 150px;
+    right: 27%;
+    width: 300px;
+}
+
+.container span {
+    font-weight: 700;
+}
+
+.email-input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.schedule-button {
+    position: absolute;
+    left: 54%;
+    top: 27.5%; 
+
+    color: #fff;
+    cursor: pointer;
+    
+    border-radius: 5px;
+    border: none;
+
+    background-color: var(--cor0);
+    padding: 15px;
+
+    transition: background-color .7s ease;
+}
+
+.schedule-button:hover {
+    background-color: #000061;
+}
 }
