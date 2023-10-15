@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main {
+        height: 650px;
+        padding-top: 90px;
+    }
+
+    main .email {
+        margin-top: 90px;
+    }
+
+    main #text-img h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2560px) {
+
+    header  {
+        margin: 20px 2%;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 10% 80px;
+    }
+
+    .navigation li {
+        display: inline-flex;
+        padding-left: 40px;
+    }
+
+    .navigation li a {
+        color: #525252;
+        text-decoration: none;
+    }
+
+    .navigation li a:hover {
+        text-decoration: underline;
+    }
+
+    .logo-burguer {
+        display: none;
+    }
+
+    main {
+        margin: -20px 2%;
+    }
+
+    main .header-txt {
+        width: 40%;
+        margin: 0 10%;
+    }
+
+    main #text-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 500px;
+        margin: 20px 10%;
+    }
+
+    main #text-img h1 {
+        text-align: left;
+        font-size: 3rem;
+
+        width: 100%;
+    }
+
+    main #text-img p {
+        width: 100%;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    #text-img .main-img {
+        display: block;
+    }
+
+    main .email {
+        margin: -90px 0;
+    }
+
+    main .email input {
+        width: 25%;
+        margin: 0 10%;
+    }
+
+    main #btn {
+        position: relative;
+        right: 10%;
+        width: 10%;
+    }
+
+    footer {
+        margin: 2%;
+        padding: 105px 10%;
+    }
+}
