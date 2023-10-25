@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/mb-first.css">
+    <link rel="stylesheet" href="estilos/mq-telas-grandes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Confira nossas peças essenciais</title>
+</head>
+<body>
+    <section id="navigation">
+            <div class="logo">
+                <a href="#">Outsider</a>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Nossa Tecnologia</a></li>
+                <li><a href="#">Beachwear</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons-link">
+            <a href="#">Ajuda</a>
+
+            <div class="icons">
+                <i class="fa-solid fa-user"></i>    
+                
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="text-header">
+            <h2>
+                A maior black friday da Outsider
+            </h2>
+            <h1>
+                Antecipamos até: <br>
+                40% OFF
+            </h1>
+            <p>
+                Com o cupom <span>BESTFRIDAY</span>
+            </p>
+        </div>
+        <div class="buttons">
+            <button>Homem</button>
+            <button>Mulher</button>
+        </div>
+    </header>
+
+    <section id="card-images">
+        <div id="links">
+            <a id="link-homem" onclick="mostrarHomem()">HOMEM</a>
+            <a id="link-mulher" onclick="mostrarMulher()">MULHER</a>
+        </div>
+        <div id="fotos">
+            <div id="show-homem">
+                <div id="homem-fotos">
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/homem-1-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Tech T-Shirt</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 159,00</span>
+                    </div>
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/homem-2-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Casaco Grafeno</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 75,00</span>
+                    </div>
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/homem-3-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Moletom Outfirst</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 165,00</span>
+                    </div>
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/homem-4-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Jaqueta de Couro</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 79,00</span>
+                    </div>
+                </div>
+            </div>
+            <div id="show-mulher">
+                <div id="mulher-fotos">
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/mulher-1-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Brincos Polidos</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 165,00</span>
+                    </div>
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/mulher-2-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Conjunto Blusa-Saia</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 165,00</span>
+                    </div>
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/mulher-3-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Vestido Longo</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 165,00</span>
+                    </div>
+                    <div class="card-foto">
+                        <a href="#"><img src="./assets/modelos/mulher-4-pc.jpg" alt="Homem 1"></a>
+                        <p class="title">Camisa Social</p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <p class="content-card">Evoluçao tecnológica da camiseta básica, anti odor, não precisa ser passada.</p>
+                        <span class="value">R$ 165,00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="card-img-2">
+        <h1>TIME<span>LESS</span></h1>
+        <p>Beachwear Atemporal</p>
+        <button>SHOP</button>
+    </section>
+
+    <section id="triple-card">
+        <div class="card-one">
+            <img src="assets/esportes.png" alt="mulher com uma bola azul">
+            <img src="assets/underwear.png" alt="homem com calção">
+            <img src="assets/dia-a-dia.png" alt="mulher deitada de olhos fechados">
+        </div>
+    </section>
+
+    <section id="card-img-3">
+            <div class="text-card-3">
+                <h1>Outsider</h1>
+                <h1>+ Berthajucá</h1>
+            </div>
+            <button>
+                SHOP
+            </button>
+    </section>
+
+    <section id="zoom-img">
+        <div class="txt-zoom">
+            <h1>Direto do Instagram</h1>
+        </div>
+        <div class="zoom-container">
+            <div class="container">
+                <img src="./assets/zoom-img/zoom-img-1.jpg">
+                <div class="overlay">
+                    <div class="icon">
+                        <i class="fab fa-instagram" style=" font-weight: 700; font-size: 2rem;"></i>
+                    </div>
+                    <div class="text">EXPANDIR</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./assets/zoom-img/zoom-img-2.jpg">
+                <div class="overlay">
+                    <div class="icon">
+                        <i class="fab fa-instagram" style=" font-weight: 700; font-size: 2rem;"></i>
+                    </div>
+                    <div class="text">EXPANDIR</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./assets/zoom-img/zoom-img-3.jpg">
+                <div class="overlay">
+                    <div class="icon">
+                        <i class="fab fa-instagram" style=" font-weight: 700; font-size: 2rem;"></i>
+                    </div>
+                    <div class="text">EXPANDIR</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./assets/zoom-img/zoom-img-4.jpg">
+                <div class="overlay">
+                    <div class="icon">
+                        <i class="fab fa-instagram" style="font-weight: 700; font-size: 2rem;"></i>
+                    </div>
+                    <div class="text">EXPANDIR</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="./assets/zoom-img/zoom-img-5.jpg">
+                <div class="overlay">
+                    <div class="icon">
+                        <i class="fab fa-instagram" style=" font-weight: 700; font-size: 2rem;"></i>
+                    </div>
+                    <div class="text">EXPANDIR</div>
+                </div> 
+            </div>
+            <div class="container">
+                <img src="./assets/zoom-img/zoom-img-6.jpg">
+                <div class="overlay">
+                    <div class="icon">
+                        <i class="fab fa-instagram" style=" font-weight: 700; font-size: 2rem;"></i>
+                    </div>
+                    <div class="text">EXPANDIR</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="card-img-4">
+        <h1>MADE FOR THE FUTURE</h1>
+        <div class="text">
+            <span>SMART</span>
+            <span>WEAR.</span>
+            <span>BETTER</span>
+            <span>LIVING.</span>
+        </div>
+        <button>CONHECER</button>
+    </section>
+
+    <div class="logo-comment">
+        <div onclick="selectImage(this)">
+            <img src="./assets/logo/globo-tv-logo.webp" alt="Imagem1">
+            <p>"Oferecer conforto não é a única preocupação da empresa em tempos de aquecimento global. Responsabilidade social e ambiental também estão em pauta."</p>
+        </div>
+        <div onclick="selectImage(this)">
+            <img src="./assets/logo/exame-logo.png" alt="Imagem2">
+            <p>"Como referência em roupas com tecnologia e relacionamento com laboratórios de nanotecnologia, o próximo passo surgiu naturalmente para a Outsider no contexto da pandemia: um upgrade em uma tecnologia para que as roupas adquirissem propriedades antivirais."</p>
+        </div>
+        <div onclick="selectImage(this)">
+            <img src="./assets/logo/Pequenas-Empresas-Grandes-Negócioscópia.png" alt="Imagem3">
+            <p>"A Outsider Store pivotou seu posicionamento para conforto no home office enquanto desenvolvia um aprimoramento da tecnologia antibacteriana, transformando-a em antiviral."</p>
+        </div>
+        <div onclick="selectImage(this)">
+            <img src="./assets/logo/brazil-journal-logo.png" alt="Imagem4">
+            <p>"Outra bandeira da Outsider Store é a sustentabilidade, que combina com seu posicionamento digital.  Cada camiseta economiza dois mil litros de água em relação à fabricação de uma camiseta comum."</p>
+        </div>
+    </div>
+
+    <aside>
+        <div class="text-subcomment">
+            <h1>Roupas tecnológicas</h1>
+            <p>
+                As <strong>roupas tecnológicas</strong> da Outsider unem funcionalidade, design e conforto. Elas são atemporais e transitam entre diversos ambientes, aumentando as possibilidades de combinações. Além disso, apresentam excelente durabilidade e não desbotam com o passar do tempo.
+            </p>
+            <p>
+                Desenvolvemos <strong>roupas masculinas</strong> e femininas com tecnologia anti odor, anti suor e antimicrobiana. Com elas, você consegue cumprir todos os compromissos sem se preocupar com manchas de transpiração e odores desagradáveis.
+            </p>
+        </div>
+
+        <a href="#">Leia Mais</a>
+    </aside>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="logo">OUTSIDER</div>
+                <div class="links">
+                    <a href="#">Inicio</a>
+                    <a href="#">Nossa Tecnologia</a>
+                    <a href="#">BeachWear</a>
+                </div>
+            </div>
+            <div class="subscribe">
+                <p>Deixe seu email abaixo para mais novidades!</p>
+                <input type="text" placeholder="Seu email">
+                <button>ENVIAR</button>
+            </div>
+            <div class="credit">
+                <p>By Thiago Alves</p>
+                <a href="https://www.instagram.com/th_ntc/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function mostrarHomem() {
+            document.getElementById("show-homem").style.display = "block";
+            document.getElementById("show-mulher").style.display = "none";
+            document.getElementById("fotos").style.height = "auto";
+        }
+
+        function mostrarMulher() {
+            document.getElementById("show-homem").style.display = "none";
+            document.getElementById("show-mulher").style.display = "block";
+            document.getElementById("fotos").style.height = "auto";
+        }
+
+        function selectImage(element) {
+        var images = document.querySelectorAll('.logo-comment div');
+        images.forEach(function(img) {
+            img.classList.remove('active');
+        });
+        element.classList.add('active');
+}
+    </script>
+</body>
+</html>
