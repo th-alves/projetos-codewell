@@ -481,6 +481,8 @@
 
       aside {
         text-align: center;
+        background-color:#ffdddd;
+        padding: 80px;
       }
 
       aside h1 {
