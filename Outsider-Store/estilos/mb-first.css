@@ -20,8 +20,6 @@
     font-family: var(--font-geral);
 }
 
-@media screen and (max-width: 768px) {
-
 body {
   height: 100vh;
   opacity: 0;
@@ -35,6 +33,8 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
 
  #navigation {
   display: flex;
