@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
+
+:root {
+    --bg-color: #ffeeeb;
+    --btn-color: #7070ff;
+    --text-p: #656565;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header, #bloco-1 {
+    background-image: linear-gradient(to right, #eebeee, #f3c7c7, var(--bg-color));
+}
+
+nav {
+    display: none;
+}
+
+#navigation .logo-burguer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 20px 7%;
+}
+
+#bloco-1 {
+    display: grid;
+    padding: 0 7%;
+    background-color: #fff;
+}
+
+#bloco-1 .text-1 {
+    order: 1;
+}
+
+#img-bloco-1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#bloco-1 img {
+    max-width: 60%;
+}
+
+#bloco-1 .text-1 h1 {
+    font-size: calc(1.5rem + 3vw);
+    text-align: center;
+    margin: 20px 0;
+}
+
+#bloco-1 .text-1 p {
+    color: var(--text-p);
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+#bloco-1 .btn {
+    text-align: center;
+}
+
+#btn {
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin: 0 0 20px;
+
+    font-weight: 900;
+    color: #fff;
+    transition: all .7s ease;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: #5b5bc9;
+}
+
+#btn span {
+    font-weight: 100;
+    color: lightgrey;
+}
+
+#bloco-1 .user-avatars span {
+    color: var(--btn-color);
+    font-weight: 700;
+}
+
+#bloco-1 .user-avatars p {
+    text-align: left;
+}
+
+#bloco-2 {
+    padding: 50px 7%;
+    display: grid;
+}
+
+#bloco-2 img {
+    max-width: 100%;
+    margin-bottom: 40px; 
+    order: 1;
+}
+
+#bloco-2 .text-2 {
+    text-align: center;
+    order: 2;
+}
+
+#bloco-2 .text-2 h1 {
+    font-size: calc(1.3rem + 3vw);
+}
+
+#bloco-2 .text-2 p {
+    margin: 20px 0 10px;
+    color: var(--text-p);
+}
+
+#bloco-2 .text-2 a {
+    color: var(--btn-color);
+    text-decoration: none;
+    font-weight: 900;
+
+    transition: all .7s ease;
+}
+
+#bloco-2 .text-2 a:hover {
+    text-decoration: underline;
+    color: #45459a;
+}
+
+#bloco-3 {
+    text-align: center;
+    padding: 40px 7%;
+    background-color: #fff;
+}
+
+#bloco-3 img {
+    max-width: 100%;
+}
+
+#bloco-3 .text-3 h1 {
+    font-size: calc(1.2rem + 3vw);
+    margin: 20px;
+}
+
+#bloco-3 .text-3 p {
+    margin-bottom: 10px;
+}
+
+#bloco-3 .text-3 a {
+    color: var(--btn-color);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#bloco-3 .text-3 a:hover {
+    color: #45459a;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 10% 7%; 
+    background-color: var(--bg-color);
+}
+
+footer h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+footer p,
+span {
+    color: var(--text-p);
+}
+
+#links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#links .link {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+
+    padding: 20px 0;
+}
+
+#links .link a {
+    color: var(--text-p);
+    text-decoration: none;
+}
+
+#links .link a:hover {
+    color: #353535;
+    text-decoration: underline;
+}

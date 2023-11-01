@@ -1,0 +1,211 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #navigation #burguer-img {
+        display: none; 
+    }
+
+    #navigation nav {
+        display: block;
+    }
+
+    #navigation nav ul {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #navigation li {
+        list-style: none;
+    }
+
+    #navigation li a {
+        text-decoration: none;
+        color: var(--text-p);
+    }
+
+    #navigation li a:hover {
+        text-decoration: underline;
+        color: #353535;
+    }
+
+    #btn {
+        margin: 0;
+    }
+
+    #navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bloco-1 .text-1 h1, 
+    #bloco-1 .text-1 p,
+    #bloco-1 .btn {
+        text-align: left;
+    }
+
+    #bloco-1 .btn {
+        margin-bottom: 20px;
+    }
+
+    #bloco-2 {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 40px;
+    }
+
+    #bloco-2 img {
+        order: 2;
+    }
+
+    #bloco-2 .text-2 {
+        text-align: left;
+    }
+
+    #bloco-2 .text-2 h1 {
+        font-size: 2rem;
+    }
+
+    #bloco-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+
+        text-align: left;
+    }
+
+    #bloco-3 .text-3 h1 {
+        font-size: 2rem;
+        margin: 0 0 10px;
+    }
+
+    footer {
+        background-color: var(--bg-color);
+    }
+
+    #rodape {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: baseline;
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 2560px) {
+    #navigation #burguer-img {
+        display: none;
+    }
+
+    #navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #navigation nav {
+        display: block;
+    }
+
+    #navigation nav ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #navigation nav li {
+        list-style: none;
+    }
+
+    #navigation nav li a {
+        text-decoration: none;
+        color: var(--text-p);
+    }
+
+    #navigation nav li a:hover {
+        color: #353535;
+        text-decoration: underline;
+    }
+
+    #navigation #btn {
+        margin: 0;
+    }
+
+    #bloco-1 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 7%;
+    }
+
+    #bloco-1 .text-1 {
+        order: 1;
+    }
+
+    #bloco-1 .text-1 h1 {
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    #bloco-1 .text-1 p {
+        text-align: left;
+    }
+
+    #bloco-1 #img-bloco-1 {
+        order: 2;
+    }
+
+    #bloco-1 .btn {
+        text-align: left;
+    }
+
+    #bloco-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #bloco-2 .text-2 {
+        order: 1;
+        text-align: left;
+    }
+
+    #bloco-2 .text-2 h1 {
+        font-size: 3rem;
+    }
+
+    #bloco-2 img {
+        width: 500px;
+        margin: auto;
+    }
+
+    #bloco-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: left;
+    }
+
+    #bloco-3 .text-3 h1 {
+        font-size: 3rem;
+        margin: 0 0 10px;
+    }
+
+    #bloco-3 img {
+        width: 500px;
+    }
+
+    footer {
+        padding: 0 7% 20px;
+    }
+
+    #rodape {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #rodape .comment {
+        width: 30%;
+    }
+
+    #rodape #links {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+    }
+}
